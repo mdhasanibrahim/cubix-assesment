@@ -1,0 +1,227 @@
+* {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+html {
+    height: 100% !important;
+}
+
+p {
+    color: grey !important;
+}
+
+#heading {
+    text-transform: uppercase !important;
+    color: #673AB7 !important;
+    font-weight: normal !important;
+}
+
+#msform {
+    text-align: center !important;
+    position: relative !important;
+    margin-top: 20px !important;
+}
+
+#msform fieldset {
+    background: white !important;
+    border: 0 none !important;
+    border-radius: 0.5rem !important;
+    box-sizing: border-box !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding-bottom: 20px !important;
+    position: relative !important;
+}
+
+.form-card {
+    text-align: left !important;
+}
+
+#msform fieldset:not(:first-of-type) {
+    display: none !important;
+}
+
+#msform input,
+#msform textarea {
+    padding: 8px 15px 8px 15px !important;
+    border: 1px solid #ccc !important;
+    border-radius: 0px !important;
+    margin-bottom: 10px !important;
+    margin-top: 2px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+    font-family: montserrat !important;
+    color: #2C3E50 !important;
+    background-color: #ECEFF1 !important;
+    font-size: 16px !important;
+    letter-spacing: 1px !important;
+}
+
+#msform input:focus,
+#msform textarea:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #673AB7 !important;
+    outline-width: 0 !important;
+}
+
+/*Next Buttons*/
+#msform .action-button {
+    width: 100px !important;
+    background: #673AB7 !important;
+    font-weight: bold !important;
+    color: white !important;
+    border: 0 none !important;
+    border-radius: 0px !important;
+    cursor: pointer !important;
+    padding: 10px 5px !important;
+    margin: 10px 0px 10px 5px !important;
+}
+
+#msform .action-button:hover,
+#msform .action-button:focus {
+    background-color: #311B92 !important;
+}
+
+#msform .action-button-previous {
+    width: 100px !important;
+    background: #616161 !important;
+    font-weight: bold !important;
+    color: white !important;
+    border: 0 none !important;
+    border-radius: 0px !important;
+    cursor: pointer !important;
+    padding: 10px 5px !important;
+    margin: 10px 5px 10px 0px !important;
+}
+
+#msform .action-button-previous:hover,
+#msform .action-button-previous:focus {
+    background-color: #000000 !important;
+}
+
+.card {
+    z-index: 0 !important;
+    border: none !important;
+    position: relative !important;
+}
+
+.fs-title {
+    font-size: 25px !important;
+    color: #673AB7 !important;
+    margin-bottom: 15px !important;
+    font-weight: normal !important;
+    text-align: left !important;
+}
+
+.fs-step {
+    font-size: 25px !important;
+    color: #868686 !important;
+    font-weight: normal !important;
+    text-align: right !important;
+}
+
+.purple-text {
+    color: #673AB7 !important;
+    font-weight: normal !important;
+}
+
+.steps {
+    font-size: 25px !important;
+    color: gray !important;
+    margin-bottom: 10px !important;
+    font-weight: normal !important;
+    text-align: right !important;
+}
+
+.fieldlabels {
+    color: gray !important;
+    text-align: left !important;
+}
+
+#progressbar {
+    margin-bottom: 30px !important;
+    overflow: hidden !important;
+    color: lightgrey !important;
+}
+
+#progressbar .active {
+    color: #673AB7 !important;
+}
+
+#progressbar li {
+    list-style-type: none !important;
+    font-size: 15px !important;
+    width: 25% !important;
+    float: left !important;
+    position: relative !important;
+    font-weight: 400 !important;
+}
+
+#progressbar #account:before {
+    font-family: FontAwesome !important;
+    content: "\f13e" !important;
+}
+
+#progressbar #personal:before {
+    font-family: FontAwesome !important;
+    content: "\f007" !important;
+}
+
+#progressbar #payment:before {
+    font-family: FontAwesome !important;
+    content: "\f030" !important;
+}
+
+#progressbar #confirm:before {
+    font-family: FontAwesome !important;
+    content: "\f00c" !important;
+}
+
+#progressbar li:before {
+    width: 50px !important;
+    height: 50px !important;
+    line-height: 45px !important;
+    display: block !important;
+    font-size: 20px !important;
+    color: #ffffff !important;
+    background: lightgray !important;
+    border-radius: 50% !important;
+    margin: 0 auto 10px auto !important;
+    padding: 2px !important;
+}
+
+#progressbar li:after {
+    content: '' !important;
+    width: 100% !important;
+    height: 2px !important;
+    background: lightgray !important;
+    position: absolute !important;
+    left: 0 !important;
+    top: 25px !important;
+    z-index: -1 !important;
+}
+
+#progressbar li.active:before,
+#progressbar li.active:after {
+    background: #673AB7 !important;
+}
+
+.progress {
+    height: 20px !important;
+}
+
+.progress-bar {
+    background-color: #673AB7 !important;
+}
+
+.fit-image {
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+.error {
+    color: red !important;
+}
